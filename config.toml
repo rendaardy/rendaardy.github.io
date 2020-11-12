@@ -1,0 +1,61 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Marenda Setco Ardy"
+theme = "hugo-developer-portfolio"
+
+[params.plugins]
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css"
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js"
+  [[params.plugins.js]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js"
+
+# navigation
+[menu]
+  [[menu.main]]
+  name = "About"
+  URL = "about"
+  [[menu.main]]
+  name = "Blog"
+  URL = "blog"
+  [[menu.main]]
+  name = "Portfolio"
+  URL = "portfolio"
+  [[menu.main]]
+  name = "Contact"
+  URL = "contact"
+
+[params]
+home = "Home" # What you want the homepage to show up as in the menu bar
+# Meta data
+description = "The website of Sam Robbins, 2nd Year Computer Science Student at Durham University"
+author = "Sam Robbins"
+
+
+  [params.contact]
+  formAction = "https://formspree.io/<Insert code>" # Add your formspree URL here to get emails
+
+  # This contains the contact information for the footer
+  [params.footer]
+  email = "samrobbinsgb@gmail.com"
+  address = "Durham, UK"
+  googlemaps = "https://www.google.com/maps/embed/v1/place?q=place_id:ChIJwbHYJaUqfEgRK0Ui9dVGimc&key=AIzaSyAE_4rVAKux_DSPcb_OdSRDaovtPOSk_3U"
+
+categories = ["hackathon", "web-dev"]
+coders = ["samrobbins85", "karina-talibzhanova"]
+date = 2020-05-30T23:00:00Z
+description = "A Firefox Browser Extension"
+github = ["https://github.com/karina-talibzhanova/oxfordhack2020"]
+image = "https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1593352345/twoo-home_k7molq.png"
+title = "Oxford Digithon"
+[[tech]]
+logo = "https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1591793272/logos/logos_javascript_adj1dx.svg"
+name = "JavaScript"
+url = "https://www.ecma-international.org/memento/tc39.htm"
+[[tech]]
+logo = "https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1593368547/firefox-ar21_cps6me.svg"
+name = "Firefox WebExtensions"
+url = "https://www.mozilla.org/en-GB/firefox/"
